@@ -1,0 +1,30 @@
+.pr-menu {
+    &__items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;         
+    }
+    &__item {
+        text-align: center; 
+        margin: 0px 10px;
+    }
+
+    &__link {
+        display: block;
+        padding: 10px 25px;
+        border-radius: 3px;
+        background-color: rgba(17,17,17,0);
+        border: 1px solid #ebebeb;        
+        font-size: 14px;
+        line-height: 21px;
+        color: #8c8c8c;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-decoration: none;
+
+        &:hover{
+            color: #ffffff;
+            background-color: #998575;            
+        }
+    }
+}

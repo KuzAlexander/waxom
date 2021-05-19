@@ -1,0 +1,29 @@
+.headline {
+    &__title {
+        font-size: 30px;
+        color: #555555;
+        font-weight: 600;
+        font-family: "Raleway";
+        &--color {
+            margin-top: 20px;
+            color: #ffffff;
+            font-weight: 500;
+        } 
+    }
+
+    &__subtitle {
+        font-size: 16px;
+        line-height: 28px;
+        color: #8c8c8c;
+        font-weight: 300;
+        font-family: "Montserrat";
+        margin-top: 35px;
+        &--color {
+            color: #ffffff;
+            margin: 16px auto 40px auto;
+        }
+        &--margin {
+            margin-top: 40px;
+        }            
+    }
+}

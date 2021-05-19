@@ -1,0 +1,23 @@
+
+.burger {
+	display: none;
+		&__lineh {
+			width: 50px;
+			border-top: 2px solid white;		
+			margin: 7px 0;
+			transition: all 0.3s ease 0s;
+		}   
+		&__linem{
+			width: 50px;
+			height: 2px;
+			background-color: white;
+			margin: 7px 0;
+			transition: all 0.3s ease 0s;
+		} 
+		&__linel{
+			width: 50px;
+			border-bottom: 2px solid white;
+			margin: 7px 0;
+			transition: all 0.3s ease 0s;
+		}		
+}

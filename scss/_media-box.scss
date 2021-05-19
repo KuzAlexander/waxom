@@ -1,0 +1,13 @@
+@media (max-width: 1200px) {
+    .box {
+        &__content {
+            padding: 20px 0;
+        }
+        &__txt {
+            text-align: center;
+        }        
+        &__button {
+            margin-top: 15px;
+        }        
+    }
+}

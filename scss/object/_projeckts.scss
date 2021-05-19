@@ -1,0 +1,22 @@
+.projects {
+
+    &__headline {
+        padding-top: 80px;
+        text-align: center;
+        margin: 0 auto; 
+    }
+
+    &__menu {
+        margin: 30px auto 0px auto;
+    }
+    &__container {
+        margin-top: 40px;
+    }
+    &__list {
+        margin: 0 auto 25px;
+    }
+
+    &__button {
+        margin: 50px auto 100px auto;
+    }
+}

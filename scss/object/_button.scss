@@ -1,0 +1,17 @@
+.button{
+    text-align: center;
+    &__txt{
+        text-transform: uppercase; 
+        display: inline-block;
+        border: 2px solid #988574;
+        border-radius: 3px;
+        background-color: #988574;
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 800;
+        font-family: "Raleway";
+        color: #ffffff;
+        text-decoration: none;
+        padding: 15px 30px;
+    }
+}

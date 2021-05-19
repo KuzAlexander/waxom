@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+    .mobile {
+        &__img {
+            margin: 0 auto;
+        }
+        &__right {
+            margin-top: 78px;
+        }  
+        &__list {
+            margin: 10px 0 15px 0;      
+        }              
+    }
+
+}

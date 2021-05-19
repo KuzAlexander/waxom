@@ -1,0 +1,23 @@
+.drib-img {
+      &__title {
+            font-size: 24px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Raleway";
+            margin-top: 20px;
+            margin-bottom: 30px;  
+      }
+
+      &__items {
+            width: 280px;
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;              
+      }
+      
+      &__item {
+            width: 130px;
+            height: 100px;
+            margin: 0 10px 10px 0;
+      }
+}

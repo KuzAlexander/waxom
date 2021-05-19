@@ -1,0 +1,16 @@
+.idea {
+    background-color: #fbfaf8;
+    text-align: center; 
+
+    &__headline{
+        margin: 50px 0 40px 0;
+    }
+
+    &__backgraund {
+        min-height: 460px;
+        margin: 0px auto;
+        background: url(../images/browser-center.png) no-repeat, url(../images/browser-left.png) no-repeat, url(../images/browser-right.png) no-repeat;  
+        background-size: 730px, 700px, 700px;
+        background-position: center bottom 0px, left 0px bottom 0px, right 0px bottom 0px;
+    }
+}

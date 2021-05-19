@@ -1,0 +1,48 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+
+    &__icon {
+        filter: brightness(40%);      
+    }
+    &__img {
+        height: 44px;
+    }
+
+    &__title {
+        font-size: 22px;
+        color: #555555;
+        font-weight: 600;
+        font-family: "Raleway";
+        margin-top: 30px;    
+    }
+
+    &__subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        color: #8c8c8c;
+        font-weight: 300;
+        font-family: "Montserrat";
+        margin: 28px auto 0px auto;
+        flex: 1 1 auto;
+    }
+
+    &__line {
+        width: 70px;
+        border-bottom: 3px solid #f1eee9;
+        margin: 28px auto 40px auto;
+        font-size: 24px;
+    }    
+
+    &:hover &__line{
+        border-bottom-color: #c7b299;
+    }
+
+    &:hover &__img{
+        filter: opacity(50%);
+    } 
+    &:hover &__title{
+        color: #c7b299;
+    }
+}

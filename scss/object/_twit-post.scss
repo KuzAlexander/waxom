@@ -1,0 +1,52 @@
+.twit-post {
+    &__title {
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Raleway";
+        margin-top: 20px;
+        margin-bottom: 30px;        
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__data {
+        font-size: 12px;
+        line-height: 20px;
+        color: #363636;
+        font-weight: 300;
+        font-family: "Montserrat";
+    }
+
+    &__txt {
+        font-size: 14px;
+        line-height: 20px;
+        color: #555555;
+        font-weight: 300;
+        font-family: "Montserrat";
+    }
+    &__txt-link1 {
+        color: #00bff3;
+    }
+
+    &__txt-link2 {
+        color: #555555;
+    }
+
+    &__line {
+        width: 100%;
+        height: 1px;
+        background-color: #242424;
+        margin: 20px 0;
+    }
+    &__item:hover &__data{
+        color: #ffffff;
+    }
+
+    &__item:hover &__txt{
+        color: #c7b299;
+    }    
+}
+

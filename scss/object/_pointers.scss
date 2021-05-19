@@ -1,0 +1,65 @@
+.pointers {
+        display: flex;
+        justify-content: center;
+
+        &__circle {
+            height: 22px;
+            width: 22px;
+            border-radius: 11px;
+            border: 2px solid #d1d1d1;
+            margin: 0 7px;
+            position: relative;     
+        }
+
+		&__left {
+            width: 8px;
+            height: 8px;
+            border-left: 2px solid #d1d1d1;
+            border-bottom: 2px solid #d1d1d1;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 5px;
+            left: 8px;
+		}
+        &__right {
+            width: 8px;
+            height: 8px;
+            border-right: 2px solid #d1d1d1;
+            border-top: 2px solid #d1d1d1;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+
+        &__link-left {
+            height: 22px;
+            width: 22px;
+            display: block;
+            position: absolute;
+            top: -4px;
+            left: -8px;          
+        }
+
+		&__link-right {
+            height: 22px;
+            width: 22px;
+            display: block;
+            position: absolute;
+            top: -8px;
+            left: -5px;            
+        } 
+
+        &__circle:hover {
+            border-color: #c7b299;
+        }
+        &__circle:hover &__left {
+            border-left-color: #c7b299;
+            border-bottom-color: #c7b299;
+        }
+        
+        &__circle:hover &__right {
+            border-right-color:  #c7b299;
+            border-top-color: #c7b299;
+        }   
+}

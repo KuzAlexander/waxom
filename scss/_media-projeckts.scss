@@ -1,0 +1,30 @@
+@media (max-width:1200px) {
+    .pr-menu {
+        &__item {
+            margin-bottom: 10px;
+        }
+    }
+    .projects {
+        &__list {
+            margin-bottom: 20px;  
+        }
+        &__container {
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width:786px) {
+    .pr-menu {
+        &__item {
+            margin-bottom: 10px;
+        }
+    }
+    .projects {
+        &__list {
+            margin-bottom: 20px;  
+        }
+        &__container {
+            margin-top: 20px;
+        }
+    }
+}        

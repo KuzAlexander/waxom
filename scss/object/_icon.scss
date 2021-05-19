@@ -1,0 +1,25 @@
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    &__cart {
+        margin-left: 0px;
+    }
+
+    &__search {
+        margin-left: 15px;
+    } 
+    &__form {
+        display: none;
+    } 
+    &__input {
+        outline: none;
+        padding: 5px;
+    }
+    &__button{
+        border: none;
+        background-color: #988574;
+    }  
+
+}
+

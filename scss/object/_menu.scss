@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+
+    &__item {
+        padding: 0px 5px;
+    }
+
+    &__link{
+        font-size: 14px;
+        font-weight: 300;
+        font-family: "Montserrat";
+        color: #ffffff;
+        text-decoration: none;            
+    }
+
+    &__link:hover {
+        color: #c7b299;
+    } 
+}

@@ -1,0 +1,133 @@
+@media (max-width: 1199px) {
+    .slider {
+        &__logo {
+            justify-content: center;
+            margin-bottom: 2px;
+        }  
+    }
+    .menu {
+        &__item{
+            margin: 10px 0 10px 0;
+        }                           
+    }
+}
+
+@media (max-width: 992px) {
+    .slogan {
+        &__title {
+            font-size: 40px;
+        }
+        &__subtitle {
+            font-size: 25px;
+        }           
+    }
+}
+
+@media (max-width: 767px) {
+    .slider {
+        overflow: hidden;
+        &__header{      
+            position: fixed;     
+            &:before{
+                display: block;
+                z-index: 1;
+            }            
+        }
+        &__logo {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            margin-bottom: 0px;
+            z-index: 1;
+        }
+        &__burger{
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+        }  
+        &__menu{
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: grey;
+            padding: 90px 0 0 50px;
+            overflow: auto;
+        }
+        &__icon{
+            display: none;
+            justify-content: center;
+        } 
+        &__button {
+            display: none;
+        }  
+    }
+    .menu {
+        &__item {
+            padding: 10px 0;
+        }
+        &__link {
+            font-size: 25px;
+        }
+    }
+    .slogan {   
+        &__title {
+            font-size: 30px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        } 
+        &__text {
+            font-size: 15px;
+        }      
+    }
+}   
+@media (max-width: 576px) {
+    .slogan {   
+        &__title {
+            font-size: 25px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        } 
+        &__text {
+            font-size: 13px;
+        }      
+    }
+}
+.activ{
+    &__body{
+        overflow: hidden;
+    }
+    &__carousel-indicators{
+        display: none;
+    }
+    &__menu{
+        display: block; 
+    }
+    &__lineh{
+        transform: rotate(45deg);
+        position: relative;
+        top: 16px;
+    }
+    &__linel {
+        transform: rotate(-45deg);
+        position: relative;
+        top: -17px;
+    }
+    &__linem {
+        transform: scale(0);
+    }
+    &__form {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__hide{
+        display: none;
+    }
+}    

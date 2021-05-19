@@ -1,0 +1,13 @@
+.footer {
+    background-color: #191919;
+    overflow: hidden;
+    &__content {
+		margin: 80px 0;
+	}
+	&__copyright{
+		background-color: #101010;
+	}
+	&__height {
+		padding: 50px 0;
+	}
+}

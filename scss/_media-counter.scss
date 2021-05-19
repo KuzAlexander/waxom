@@ -1,0 +1,18 @@
+@media (max-width: 1000px) {
+    .counter-item{
+        &__num{
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .counter-item{
+        &__line {     
+            margin-bottom: 20px;
+        }
+        &__img {
+            margin: 20px auto 0 auto;
+        }        
+    }
+}

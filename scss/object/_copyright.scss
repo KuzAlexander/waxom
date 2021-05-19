@@ -1,0 +1,29 @@
+.copyright {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 300;
+        font-family: "Montserrat";
+        color: #555555;
+		&__left {
+            text-align: left;
+        }  
+        &__right {
+            text-align: end;
+        }
+        &__theme{
+            color: #A9A9A9;
+            text-decoration: none;
+            &:hover {
+                color: #c7b299;
+            }            
+        }
+        
+		&__link {
+            color: #555555;
+            text-decoration: none;
+            &:hover {
+                color: #c7b299;
+            }
+		}
+
+}
